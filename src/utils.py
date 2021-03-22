@@ -4,7 +4,7 @@ from __future__ import absolute_import
 
 import scipy.misc as misc
 import numpy as np
-from cStringIO import StringIO
+from io import StringIO
 
 
 def pad_seq(seq, batch_size):
